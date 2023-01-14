@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainHeader {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #ffff;
+  justify-content: space-between;
+  width: 100%;
+  top: 500px;
+}
+.row{
+  width: 65%;
+  height: 100%;
+}
+.anchorlinck{
+  color: #fd6347;
+  text-decoration: underline;
+}
+.changepassanc{
+  color: #fd6347;
+  margin-top: 2vh;
+}
+.second{
+  border-radius: 5px;
+  padding: 40px;
+  width: 80%;
+  height: 80vh;
+  position: env();
+  display: flex;
+  left:800px;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  top: 100px;
+  box-shadow: 7px 7px 7px 7px gray;
+}
+.firstMain {
+  margin: 0 auto;
+}
+.mainText {
+  margin-top: 141px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #203765;
+}
+.secText {
+  margin-top: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: rgba(32, 55, 101, 0.8);
+}
+.mainImage {
+  width: 100%;
+  height: auto;
+  
+}
+.radio{
+  margin-top: 2vh;
+  color: grey;
+}
+.radioval{
+  margin-bottom: 2vh;
+}
+.imagew{
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.inputContainer {
+  width: 50%;
+  margin-top: 8vh;
+}
+.logincardinals{
+  font-weight: 500;
+  color: black;
+  margin-top: 5vh;
+  margin-bottom: 0vh;
+  
+}
+.signinText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 125%;
+  margin: 20% 20% 20% 45%;
+  color: #29375f;
+}
+.username,
+.password,
+.slect,
+.btnClick {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  background: #ffffff;
+  font-size: medium;
+  margin-top: -10px;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+  width: 650px;
+  height: 44px;
+  border-radius: 6px;
+}
+.last{
+  margin-top: 5vh;
+  color: grey;
+}
+.lasttext{
+  margin: auto;
+  margin-left: 15vw;
+}
+.username {
+  margin-top: 15px;
+}
+.slect,
+.btnClick,
+.password {
+  margin-top: 15px;
+}
+.slect {
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.btnClick {
+  background: #197bbb;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  width: 110%;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  text-align: center;
+  border: none;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.slect::-ms-expand {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slect:focus:invalid {
+  border-color: #fd6347;
+}
+
+.slect:required:valid {
+  border-color: #006400;
 }
